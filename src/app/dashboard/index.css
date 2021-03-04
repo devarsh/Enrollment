@@ -1,0 +1,117 @@
+:root {
+  --theme-color1: #0063a3;
+  --theme-color2: #26a456;
+  --white: #ffffff;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #393939 !important;
+  font-size: 1rem !important;
+  line-height: 1.25 !important;
+  letter-spacing: 0.5px !important;
+  background-color: #fafafa !important;
+}
+body,
+input,
+textarea,
+select,
+.MuiInputBase-root,
+.MuiMenuItem-root {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
+}
+html {
+  font-size: 14px;
+}
+.theme-color1 {
+  color: var(--theme-color1);
+}
+.theme-color2 {
+  color: var(--theme-color2);
+}
+
+*:focus {
+  outline: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+img {
+  max-width: 100%;
+}
+a:hover {
+  text-decoration: none !important;
+  color: #0b6fb8 !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.4 !important;
+  margin: 4px 0;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
+}
+h2 {
+  color: var(--theme-color2);
+  font-weight: 700 !important;
+  font-size: 2rem;
+}
+.text {
+  line-height: 1.4;
+}
+
+.follow-link svg:hover path {
+  fill: var(--theme-color1);
+}
+
+.ps__rail-y {
+  width: 10px;
+}
+.ps__rail-y:hover > .ps__thumb-y,
+.ps__rail-y:focus > .ps__thumb-y,
+.ps__rail-y.ps--clicking .ps__thumb-y {
+  background-color: var(--theme-color1) !important;
+  width: 6px;
+}
+.ps__rail-x {
+  height: 6px;
+}
+.ps__rail-x:hover > .ps__thumb-x,
+.ps__rail-x:focus > .ps__thumb-x,
+.ps__rail-x.ps--clicking .ps__thumb-x {
+  background-color: var(--theme-color1) !important;
+  width: 6px;
+}
+
+@media screen and (min-width: 1440px) {
+  .MuiContainer-maxWidthLg {
+    max-width: 100% !important;
+  }
+}
+@media screen and (max-height: 768px) {
+  .MuiContainer-maxWidthLg {
+    padding: 16px !important;
+  }
+}
